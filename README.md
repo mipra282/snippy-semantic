@@ -27,7 +27,7 @@ Platforms : MacOS,Windows,Linux
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.1
+### 1.1.0
 
 Added support snippets for Grid,Gutter,Form and Table for Semantic UI
 
