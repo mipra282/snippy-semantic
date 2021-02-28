@@ -1,5 +1,5 @@
 {
-    "Semantic UI Snippets":{
+    "Semantic UI Menu":{
         "prefix":"!smenu",
         "body": [
             "<div class=\"ui top attached menu\">",
@@ -45,5 +45,110 @@
           "</div>",
         ],
         "description": "Create Semantic UI menu template"
-    }
+    },
+    "Semantic UI Grid":{
+    "prefix":"!sgrid",
+    "body":[
+      "<div class=\"ui grid\">",
+"  <div class=\"four wide column\"></div>",
+"  <div class=\"four wide column\"></div>",
+"  <div class=\"four wide column\"></div>",
+"  <div class=\"four wide column\"></div>",
+"</div>"
+    ],
+    "description":"Generates Grid in Semantic UI"
+  },
+  "Semantic UI Gutter":{
+    "prefix": "!sgutter",
+    "body": [
+      "<div class=\"ui grid\">",
+"  <div class=\"three column row\">",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"  </div>",
+"  <div class=\"eight column row\">",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"  </div>",
+"</div>",
+"<div class=\"ui relaxed grid\">",
+"  <div class=\"three column row\">",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"  </div>",
+"  <div class=\"eight column row\">",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"    <div class=\"column\"></div>",
+"  </div>",
+"</div>",
+    ],
+    "description": "Generates Grid columns are separated by areas of white space referred to as gutters in Sematic UI"
+  },
+  "Semantic UI Simple Form":{
+    "prefix": "!sform",
+    "body": [
+      "<form class=\"ui form\">",
+"  <div class=\"field\">",
+"    <label>First Name</label>",
+"    <input type=\"text\" name=\"first-name\" placeholder=\"First Name\">",
+"  </div>",
+"  <div class=\"field\">",
+"    <label>Last Name</label>",
+"    <input type=\"text\" name=\"last-name\" placeholder=\"Last Name\">",
+"  </div>",
+"  <div class=\"field\">",
+"    <div class=\"ui checkbox\">",
+"      <input type=\"checkbox\" tabindex=\"0\" class=\"hidden\">",
+"      <label>I agree to the Terms and Conditions</label>",
+"    </div>",
+"  </div>",
+"  <button class=\"ui button\" type=\"submit\">Submit</button>",
+"</form>"
+    ],
+    "description": "Generates Simple form in Semantic UI"
+  },
+  "Semantic UI Simple Table":{
+    "prefix": "!stable",
+    "body": [
+      "<table class=\"ui celled table\">",
+"  <thead>",
+"    <tr><th>Name</th>",
+"    <th>Age</th>",
+"    <th>Job</th>",
+"  </tr></thead>",
+"  <tbody>",
+"    <tr>",
+"      <td data-label=\"Name\">James</td>",
+"      <td data-label=\"Age\">24</td>",
+"      <td data-label=\"Job\">Engineer</td>",
+"    </tr>",
+"    <tr>",
+"      <td data-label=\"Name\">Jill</td>",
+"      <td data-label=\"Age\">26</td>",
+"      <td data-label=\"Job\">Engineer</td>",
+"    </tr>",
+"    <tr>",
+"      <td data-label=\"Name\">Elyse</td>",
+"      <td data-label=\"Age\">24</td>",
+"      <td data-label=\"Job\">Designer</td>",
+"    </tr>",
+"  </tbody>",
+"</table>"
+    ],
+    "description": "Generates table for Semantic UI"
+  }
 }
