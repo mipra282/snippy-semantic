@@ -2,8 +2,8 @@
     "name": "snippy-semantic",
     "displayName": "snippy-semantic",
     "description": "Semantic UI snippets",
-    "version": "0.0.1",
-    "publisher": "mithilesh",
+    "version": "1.0.0",
+    "publisher": "MithileshPradhan",
     "repository": {
         "type":"git",
         "url":"https://github.com/mipra282/snippy-semantic"
