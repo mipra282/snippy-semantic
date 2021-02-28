@@ -16,12 +16,21 @@ Platforms : MacOS,Windows,Linux
 |Shortcut|Description|
 |--------|-----------|
 |!smenu|Generates Semantic UI boilerplate menu|
+|!sgrid|Generates Semantic UI Grid layout|
+|!sgutter|Generates Semantic UI Gutter layout|
+|!sform|Generates Semantic UI form layout|
+|!stable|Generates Semantic UI table layout|
 
 
 
 ## Release Notes
 
 Users appreciate release notes as you update your extension.
+
+### 1.0.1
+
+Added support snippets for Grid,Gutter,Form and Table for Semantic UI
+
 
 ### 1.0.0
 
